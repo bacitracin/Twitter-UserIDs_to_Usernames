@@ -7,7 +7,6 @@ This script takes a CSV file with Twitter user IDs & returns a CSV with the actu
 """
 
 from twython import Twython
-import pandas as pd
 import csv
 
 # My Twitter credentials.Please replace with your own at apps.twitter.com.
