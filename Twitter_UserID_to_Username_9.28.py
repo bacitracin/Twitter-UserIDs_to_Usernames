@@ -21,7 +21,7 @@ user_id_list = []
 usernames_list = []
 
 # Opening the CSV
-f = open('affluentwomen3.csv')
+f = open('affluentwomen4.csv')
 csv_f = csv.reader(f)
 
 for row in csv_f:
@@ -43,7 +43,7 @@ zipped = zip(user_id_list, usernames_list)
 f.close()
 
 # Creates a new CSV
-with open('updated_affluent_women3.csv', 'wb') as newfile:
+with open('updated_affluent_women4.csv', 'wb') as newfile:
 	writer = csv.writer(newfile)
 	writer.writerows(zipped)
 
