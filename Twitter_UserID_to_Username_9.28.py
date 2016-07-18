@@ -10,10 +10,10 @@ from twython import Twython
 import csv
 
 # My Twitter credentials.Please replace with your own at apps.twitter.com.
-APP_KEY = "C0mughtR15ab8e06qGQbVjmLF"
-APP_SECRET = "GOgphYsPfh3jR4JYLH6s0GPrq0wdzQr1IpwSKqidnqXxh1Fd7W"
-OAUTH_TOKEN = "227459435-IHYybp0wrxGKV8WrgYyECFJ9osyx1dgvNttR2ilc"
-OAUTH_TOKEN_SECRET = "fy5ezX1A3uRESUKnsjFniZQgWKxfoqySBlJJkwdBaBmLw"
+APP_KEY = "REPLACE"
+APP_SECRET = "REPLACE"
+OAUTH_TOKEN = "REPLACE"
+OAUTH_TOKEN_SECRET = "REPLACE"
 
 twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
